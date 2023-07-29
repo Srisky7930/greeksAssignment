@@ -1,0 +1,106 @@
+.header-container {
+  background-color: #f50ce0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .header-container {
+    background-color: #f50ce0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+.company-info {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #ffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .company-info {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #ffff;
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.company-info-container {
+  height: 30vh;
+  width: 100vh;
+}
+
+.ng-movies {
+  color: white;
+  font-size: 25px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .ng-movies {
+    color: white;
+    font-size: 15px;
+    font-family: 'roboto';
+    font-weight: bold;
+  }
+}
+
+.logout-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #ffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .logout-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #ffff;
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}

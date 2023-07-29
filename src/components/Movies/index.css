@@ -1,0 +1,33 @@
+.movie-container {
+  background-color: #ffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.movies-text {
+  text-align: center;
+  color: blue;
+  font-size: 25px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+.movies-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
